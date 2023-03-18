@@ -1,0 +1,183 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+.navbar i:hover{
+    color: black;
+}
+.navbar i{color: aliceblue;
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.h1{
+    color: aliceblue;
+}
+.navbar{ color: aliceblue;
+    text-align: center;
+    display: flex;  
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 20px;
+}
+ .header{
+    background-image: url("./headbg.webp");
+    font-size: 35px;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat; background-size: cover;
+    background-position: center;
+ }        
+
+            
+.navbar a{ text-decoration: none;
+   color: aliceblue;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 3px;
+    gap: 20px;
+}
+
+.search :hover{
+    color: black;
+
+}
+.cont{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+.headlogo{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+
+}
+.headlogo i{
+    padding-top: 60px;
+    padding-right: 20px;  
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#sec1{
+
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px; padding-top: 100px;
+}
+.im{
+    display: flex;
+   
+}
+#discrib{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 15px;
+}
+#sec2{
+    
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px; 
+}
+
+#sec3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#im3{
+    display: flex;
+}
+h3{
+    text-align: center;
+    align-items: center;
+}
+#fvimg{
+    display: flex;
+    gap: 200px;
+    margin-left: 40px;
+    font-size: 70px;
+    padding: 10px;
+
+}
+
+#fvimg i{
+    color:whitesmoke;
+    margin-top: 70px;
+
+}
+#fvimg i:hover{
+    color:black;
+
+}
+
+.ply1{
+    background-image: url("./fv\ im1.webp");
+    width: 350px;
+    height: 200px; background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+     
+}
+.ply2{
+    background-image: url("./fv\ im2.webp");
+    width: 350px;
+    height: 200px; background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+}
+.ply3{
+    background-image: url("./fv\ im3.webp");
+    width: 350px;
+    height: 200px; background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+}
+.fpimg{ display: flex;
+
+    gap: 90px; margin-left: 20px;
+
+}
+.footer{
+    background-color: black;
+    height: 300px; 
+    color: aliceblue; 
+    
+}
+.logo{
+    text-align: center;
+    padding-top: 15px;
+}
+.logo i{
+    font-size: 30px;
+    padding: 20px;
+}
+.footname{
+    text-align: center;
+}
+#footmap{
+    text-align: center;
+}
+#copyright{
+    text-align: center;
+}
